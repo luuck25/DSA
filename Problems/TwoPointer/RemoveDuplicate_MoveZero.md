@@ -8,9 +8,4 @@ public static int removeDuplicates(int[] nums) {
     return ++j;
 }
 
-
-
-
-
-
 <img width="866" alt="image" src="https://github.com/user-attachments/assets/4dd81184-b97e-4775-8deb-fa093a47fe04" />
