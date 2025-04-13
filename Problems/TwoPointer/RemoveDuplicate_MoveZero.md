@@ -1,5 +1,3 @@
-
-
 public static int removeDuplicates(int[] nums) {
     int j = 0;
     for (int i = 1; i < nums.length; i++) {
@@ -11,24 +9,7 @@ public static int removeDuplicates(int[] nums) {
 }
 
 
-public static void moveZeroes(int[] nums) {
-    int j = 0;
-    // If first element is non-zero, place it at j and move j forward
-    if (nums[0] != 0) {
-        nums[j++] = nums[0];
-    }
 
-    for (int i = 1; i < nums.length; i++) {
-        if (nums[i] != 0) {
-            nums[j++] = nums[i];
-        }
-    }
-
-    // Fill the remaining with zeros
-    while (j < nums.length) {
-        nums[j++] = 0;
-    }
-}
 
 
 
