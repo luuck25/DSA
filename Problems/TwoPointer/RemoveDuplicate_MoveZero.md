@@ -10,6 +10,7 @@ public static int removeDuplicates(int[] nums) {
     return ++j;
 }
 
+
 public static void moveZeroes(int[] nums) {
     int j = 0;
     // If first element is non-zero, place it at j and move j forward
@@ -28,6 +29,7 @@ public static void moveZeroes(int[] nums) {
         nums[j++] = 0;
     }
 }
+
 
 
 <img width="866" alt="image" src="https://github.com/user-attachments/assets/4dd81184-b97e-4775-8deb-fa093a47fe04" />
