@@ -88,9 +88,9 @@ for i in range(len(list_a)):
 # 📌 4️⃣ Slicing
 
 ```python
-print(list_a[0:2])
-print(list_a[:2])
-print(list_a[1:])
+print(list_a[0:2])   # Elements from index 0 to 1
+print(list_a[:2])    # From start to index 1
+print(list_a[1:])    # From index 1 to end
 ```
 
 ---
@@ -100,9 +100,9 @@ print(list_a[1:])
 ## ➕ Adding Elements
 
 ```python
-list_a.append(4)
-list_a.insert(1, 5)
-list_a.extend([6, 7])
+list_a.append(4)        # Add at end
+list_a.insert(1, 5)     # Insert at specific index
+list_a.extend([6, 7])   # Add multiple elements
 ```
 
 ---
@@ -110,12 +110,12 @@ list_a.extend([6, 7])
 ## ➖ Removing Elements
 
 ```python
-list_a.remove(4)
-list_a.pop()
-list_a.pop(1)
-del list_a[0]
-del list_a[1:3]
-list_a.clear()
+list_a.remove(4)        # Remove by value (first occurrence)
+list_a.pop()            # Remove last element
+list_a.pop(1)           # Remove element at index
+del list_a[0]           # Delete by index
+del list_a[1:3]         # Delete slice
+list_a.clear()          # Remove all elements
 ```
 
 ---
@@ -123,9 +123,9 @@ list_a.clear()
 # 📌 6️⃣ Searching in List
 
 ```python
-list_a.index(5)
-list_a.count(5)
-5 in list_a
+list_a.index(5)     # Get index of value
+list_a.count(5)     # Count occurrences
+5 in list_a         # Check existence
 ```
 
 ---
@@ -135,10 +135,10 @@ list_a.count(5)
 ```python
 lst = [3, 1, 2]
 
-lst.sort()
-lst.sort(reverse=True)
-new_lst = sorted(lst)
-lst.reverse()
+lst.sort()                    # Sort ascending (in-place)
+lst.sort(reverse=True)        # Sort descending
+new_lst = sorted(lst)         # Return new sorted list
+lst.reverse()                 # Reverse list
 ```
 
 ---
